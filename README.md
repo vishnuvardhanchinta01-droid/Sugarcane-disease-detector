@@ -1,14 +1,3 @@
----
-title: Sugarcane Disease Detector
-emoji: 🌾
-colorFrom: green
-colorTo: yellow
-sdk: gradio
-sdk_version: 6.14.0
-app_file: app.py
-pinned: false
----
-
 # 🌾 Sugarcane Disease Detection — MoE v4
 
 Upload a sugarcane leaf photo to detect common diseases affecting sugarcane crops. This application uses a powerful **Mixture of Experts (MoE)** model architecture to accurately classify leaf conditions into five categories: **Mosaic, Rust, RedRot, YellowLeaf, or Healthy**.
@@ -57,3 +46,9 @@ python app.py
 ```
 
 The application will start, and you can access the interface by opening the local URL provided in your terminal (typically `http://localhost:7860`).
+
+### 4. Run the code in kaggle
+
+```bash
+!python sugarcane_moe_v4_notebook.py
+```
